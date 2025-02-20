@@ -1,24 +1,24 @@
 module.exports = {
     // Основная настройка бота
-    botName: "Test", // Название бота
-    botMainCurrency: "VkCoin", // Валюта 
+    botName: "RDMD GAMES", // Название бота
+    botMainCurrency: "ℝ", // Валюта 
     botVirtualCurrency: "🍩", // Не трогать 
     
     // Подключение к группе ВКонтакте
-    botToken: "123", // Бот токен
-    botPollingGroupId: 216644227, // айди группы 
-    botSecondToken: "123", // Введи сюда ещё раз токен группы
+    botToken: "vk1.a.GS-0hKlS0YwAN3eGUr_A4_OjAUAhk1gXH7qZ8C43R7k4ux2o5EU0SK6wj7OvJ-zKGTgBjeldNbOfQm4xKItpkeewnEts4vepnybfIHEufRlMXPCLhLQLhXIeH-GyK0qpj4DVrrbbBDbIhpFDfAZiL8zS7qj9vXMWrIU_Tjl5HWYohGZKK4c10m0Gl242_qPpm8qr_Ssm0D-3aRm7aCjK_Q", // Бот токен
+    botPollingGroupId: 229419604, // айди группы 
+    botSecondToken: "vk1.a.GS-0hKlS0YwAN3eGUr_A4_OjAUAhk1gXH7qZ8C43R7k4ux2o5EU0SK6wj7OvJ-zKGTgBjeldNbOfQm4xKItpkeewnEts4vepnybfIHEufRlMXPCLhLQLhXIeH-GyK0qpj4DVrrbbBDbIhpFDfAZiL8zS7qj9vXMWrIU_Tjl5HWYohGZKK4c10m0Gl242_qPpm8qr_Ssm0D-3aRm7aCjK_Q", // Введи сюда ещё раз токен группы
     projectVkPollingGroupCallbackSecret: "callkeymigames", // Не трогать
 
     // Подключение личной страницы
-    botPrivateAccountToken: "123", // Ваш токен от страницы вк ( брать здесь - https://vkhost.github.io/ ) 
-    botPrivateAccountId: 123, // Айди страницы 
+    botPrivateAccountToken: "vk1.a.lD3z9tRi4apoEITlNBlvqCnPfYt79ue60NRunP16wlb1QWl394TzmIKWui5kPzlfVdCstXlwLq0xEinFqszeaDMvG32nlU3v0GLLTWFH51W9ix8IdonUUxuIt4Pn9trhSBYKW2wZwR5iIZrEBIBW3h1eX-2p7VZRehcrDfWq2RqLMwfp-lgiMtFkV6rpCtsEbop8oRIwA9xv13lpjCHq-A", // Ваш токен от страницы вк ( брать здесь - https://vkhost.github.io/ ) 
+    botPrivateAccountId: 376393143, // Айди страницы 
 
     // Admins (Люди, которые полностью могут управлять скриптом)
-    globalAdmins: [123, 123], // Здесь тоже айди 
+    globalAdmins: [376393143, 123], // Здесь тоже айди 
 
     // Админ беседа (Может быть только одна) 
-    adminConv: 123, // Сюда свой айди 
+    adminConv: 376393143, // Сюда свой айди 
 
     // Keksik API
     keksikKey: "токен кексика", // токен кексика
@@ -43,9 +43,7 @@ module.exports = {
     marketInfoLink: "",
 
     // SQL Supabase Configuration
-    supabaseUrl: "https://xyzcompany.supabase.co",
-    supabaseKey: "public-anon-key",
-    supabaseDatabase: "database_name",
-    supabaseUser: "database_user",
-    supabasePassword: "database_password",
+    supabaseUrl: "https://pccjtryqkpezpnynsvhm.supabase.co",
+    supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjY2p0cnlxa3BlenBueW5zdmhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk4MTAzNTQsImV4cCI6MjA1NTM4NjM1NH0._KqipB5qGw2q1NZFcsD6V2d8766jOwwGZ9dri6LApDw",
+    supabaseDatabase: "pccjtryqkpezpnynsvhm",
 }
