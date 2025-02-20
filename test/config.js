@@ -1,22 +1,17 @@
-// СЛИВ ОТ ZERO_ZADE
 module.exports = {
-
     // Основная настройка бота
     botName: "Test", // Название бота
     botMainCurrency: "VkCoin", // Валюта 
     botVirtualCurrency: "🍩", // Не трогать 
     
     // Подключение к группе ВКонтакте
-     botToken: "123", // Бот токен
-     botPollingGroupId: 216644227, // айди группы 
-     
-     
-     botSecondToken: "123", // Введи сюда ещё раз токен группы
-     projectVkPollingGroupCallbackSecret: "callkeymigames", // Не трогать
-
+    botToken: "123", // Бот токен
+    botPollingGroupId: 216644227, // айди группы 
+    botSecondToken: "123", // Введи сюда ещё раз токен группы
+    projectVkPollingGroupCallbackSecret: "callkeymigames", // Не трогать
 
     // Подключение личной страницы
-    botPrivateAccountToken: "123, // Ваш токен от страницы вк ( брать здесь - https://vkhost.github.io/ ) 
+    botPrivateAccountToken: "123", // Ваш токен от страницы вк ( брать здесь - https://vkhost.github.io/ ) 
     botPrivateAccountId: 123, // Айди страницы 
 
     // Admins (Люди, которые полностью могут управлять скриптом)
@@ -45,9 +40,12 @@ module.exports = {
     dayTopInfo: "https://google.ru",
     privateConvInfo: "https://google.ru",
     clansInfoLink: "https://google.ru",
-    marketInfoLink: ""
+    marketInfoLink: "",
 
-
+    // SQL Supabase Configuration
+    supabaseUrl: "https://xyzcompany.supabase.co",
+    supabaseKey: "public-anon-key",
+    supabaseDatabase: "database_name",
+    supabaseUser: "database_user",
+    supabasePassword: "database_password",
 }
-
-// СЛИВ ОТ ZERO_ZADE
